@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2010 Daniel Nilsson
      Copyright (C) 2013 Slimroms
+     Copyright (C) 2026 Hsin OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -56,7 +57,7 @@
 
     </LinearLayout>
 
-    <com.miku.settings.colorpicker.ColorPickerView
+    <com.hsin.settings.colorpicker.ColorPickerView
         android:id="@+id/color_picker_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,7 +78,7 @@
         android:orientation="horizontal"
         android:layout_marginBottom="10dp">
 
-        <com.miku.settings.colorpicker.ColorPickerPanelView
+        <com.hsin.settings.colorpicker.ColorPickerPanelView
             android:id="@+id/old_color_panel"
             android:layout_width="0px"
             android:layout_height="fill_parent"
@@ -92,7 +93,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp" />
 
-        <com.miku.settings.colorpicker.ColorPickerPanelView
+        <com.hsin.settings.colorpicker.ColorPickerPanelView
             android:id="@+id/new_color_panel"
             android:layout_width="0px"
             android:layout_height="wrap_content"
